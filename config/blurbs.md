@@ -11,3 +11,4 @@ https://github.com/AY2425S1-CS2103T-F14a-4/tp/tree/master
 
 This is a team project I did.
 
+[blurbs.md](../../../nus-cs2103-AY2425S2/cs2103-tp-dashboard-2/config/blurbs.md)
