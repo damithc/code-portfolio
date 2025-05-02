@@ -1,6 +1,6 @@
 title: RepoSense Report
 repos:
-  - repo: https://github.com/reposense/publish-RepoSense.git
+  - repo: https://github.com/CYX22222003/ip.git
     groups:
       - group-name: code
         globs:
@@ -15,14 +15,13 @@ repos:
           - "**.md"
     branches:
       - branch: master
-        blurb: "My project"
+        blurb: "My Bot Project"
         authors:
-          - author-git-host-id: jedkohjk
-            author-display-name: jedkohjk
-            author-git-author-name: jedkohjk
+          - author-git-host-id: CYX22222003
+            author-display-name: John Doe
+            author-git-author-name: CHEN YIXUN
             author-emails:
         ignore-authors-list:
           - bot
         ignore-glob-list:
           - "**.in"
-        file-size-limit: 2000000
