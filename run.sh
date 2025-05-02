@@ -16,4 +16,4 @@
 ## Examples of other valid options; For more, please view the user guide
 ### java -jar RepoSense.jar --repos https://github.com/reposense/RepoSense.git
 
-java -jar RepoSense.jar --portfolio
+java -jar RepoSense.jar --portfolio --since 05/01/2024
