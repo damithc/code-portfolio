@@ -4,7 +4,7 @@ repos:
     groups:
       - group-name: code
         globs:
-          - "**.py"
+          - "**.java"
       - group-name: tests
         globs:
           - "src/test**"
@@ -28,7 +28,7 @@ repos:
     groups:
       - group-name: code
         globs:
-          - "**.py"
+          - "**.java"
       - group-name: tests
         globs:
           - "src/test**"
@@ -52,7 +52,7 @@ repos:
     groups:
       - group-name: code
         globs:
-          - "**.py"
+          - "**.java"
       - group-name: tests
         globs:
           - "src/test**"
