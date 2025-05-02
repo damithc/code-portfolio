@@ -1,38 +1,38 @@
-May 02, 2025 12:27:54 PM reposense.system.LogsManager addFileHandler
+May 02, 2025 12:38:51 PM reposense.system.LogsManager addFileHandler
 INFO: Log temp folder has been successfully created
-May 02, 2025 12:27:54 PM reposense.parser.ArgsParser parse
+May 02, 2025 12:38:51 PM reposense.parser.ArgsParser parse
 INFO: Config path not provided, using the config folder as default.
-May 02, 2025 12:27:54 PM reposense.parser.ReportConfigYamlParser parse
+May 02, 2025 12:38:51 PM reposense.parser.ReportConfigYamlParser parse
 INFO: Parsing report-config.yaml file...
-May 02, 2025 12:27:54 PM reposense.parser.ReportConfigYamlParser parse
+May 02, 2025 12:38:51 PM reposense.parser.ReportConfigYamlParser parse
 INFO: report-config.yaml file parsed successfully!
-May 02, 2025 12:27:54 PM reposense.parser.BlurbMarkdownParser parse
+May 02, 2025 12:38:51 PM reposense.parser.BlurbMarkdownParser parse
 INFO: Parsing blurbs...
-May 02, 2025 12:27:54 PM reposense.parser.BlurbMarkdownParser parse
+May 02, 2025 12:38:51 PM reposense.parser.BlurbMarkdownParser parse
 INFO: Blurbs parsed successfully!
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Parsing https://github.com/CYX22222003/ip.git...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Parsing master...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Parsing CYX22222003...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Parsing https://github.com/AY2425S1-CS2103T-F14a-4/tp...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Parsing master...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Parsing CYX22222003...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Parsing https://github.com/reposense/RepoSense.git...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Parsing master...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Parsing CYX22222003...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Merging author, group and repo configurations...
-May 02, 2025 12:27:54 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
+May 02, 2025 12:38:51 PM reposense.model.OneStopConfigRunConfiguration getRepoConfigurations
 INFO: Finished parsing OneStopConfigRunConfiguration!
-May 02, 2025 12:27:54 PM reposense.model.reportconfig.ReportConfiguration getRepoBlurbMap
+May 02, 2025 12:38:51 PM reposense.model.reportconfig.ReportConfiguration getRepoBlurbMap
 WARNING: Repo URL: https://github.com/AY2425S1-CS2103T-F14a-4/tp is not in the correct format. Skipping...
 java.lang.IllegalArgumentException: Repo URL: https://github.com/AY2425S1-CS2103T-F14a-4/tp is not in the correct format. Skipping...
 	at reposense.model.reportconfig.ReportRepoConfiguration.getFullyQualifiedRepoNamesWithBlurbs(ReportRepoConfiguration.java:75)
@@ -40,7 +40,7 @@ java.lang.IllegalArgumentException: Repo URL: https://github.com/AY2425S1-CS2103
 	at reposense.model.CliArguments.mergeWithReportConfigRepoBlurbMap(CliArguments.java:182)
 	at reposense.RepoSense.main(RepoSense.java:61)
 
-May 02, 2025 12:27:54 PM reposense.git.GitConfig getGlobalGitLfsConfig
+May 02, 2025 12:38:51 PM reposense.git.GitConfig getGlobalGitLfsConfig
 WARNING: Could not get global git lfs config
 java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git config --global --list on path . :
 fatal: unable to read config file '/home/runner/.gitconfig': No such file or directory
@@ -56,85 +56,85 @@ fatal: unable to read config file '/home/runner/.gitconfig': No such file or dir
 	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
 	... 3 more
 
-May 02, 2025 12:27:54 PM reposense.report.RepoCloner spawnCloneProcess
+May 02, 2025 12:38:51 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/CYX22222003/ip.git...
-May 02, 2025 12:27:54 PM reposense.report.RepoCloner spawnCloneProcess
+May 02, 2025 12:38:51 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/reposense/RepoSense.git...
-May 02, 2025 12:27:54 PM reposense.report.RepoCloner spawnCloneProcess
+May 02, 2025 12:38:51 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2425S1-CS2103T-F14a-4/tp...
-May 02, 2025 12:27:54 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/reposense/RepoSense.git to complete...
-May 02, 2025 12:27:54 PM reposense.report.RepoCloner waitForCloneProcess
+May 02, 2025 12:38:51 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/CYX22222003/ip.git to complete...
-May 02, 2025 12:27:54 PM reposense.report.RepoCloner waitForCloneProcess
+May 02, 2025 12:38:51 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2425S1-CS2103T-F14a-4/tp to complete...
-May 02, 2025 12:27:54 PM reposense.report.RepoCloner waitForCloneProcess
+May 02, 2025 12:38:51 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/reposense/RepoSense.git to complete...
+May 02, 2025 12:38:52 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/CYX22222003/ip.git completed!
-May 02, 2025 12:27:54 PM reposense.report.ReportGenerator analyzeRepos
+May 02, 2025 12:38:52 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [1/3] Analyzing https://github.com/CYX22222003/ip.git (master)...
-May 02, 2025 12:27:54 PM reposense.report.ReportGenerator updateRepoConfig
+May 02, 2025 12:38:52 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/CYX22222003/ip.git (master) does not contain a standalone config file.
-May 02, 2025 12:27:54 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 02, 2025 12:38:52 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/CYX22222003/ip.git (master)...
-May 02, 2025 12:27:55 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 02, 2025 12:38:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/CYX22222003/ip.git (master)...
-May 02, 2025 12:27:55 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 02, 2025 12:38:53 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/CYX22222003/ip.git (master)...
-May 02, 2025 12:27:55 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2425S1-CS2103T-F14a-4/tp completed!
-May 02, 2025 12:27:55 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/3] Analyzing https://github.com/AY2425S1-CS2103T-F14a-4/tp (master)...
-May 02, 2025 12:27:55 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2425S1-CS2103T-F14a-4/tp (master) does not contain a standalone config file.
-May 02, 2025 12:27:55 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2425S1-CS2103T-F14a-4/tp (master)...
-May 02, 2025 12:27:56 PM reposense.report.ReportGenerator analyzeRepo
+May 02, 2025 12:38:53 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/CYX22222003/ip.git (master) completed!
-May 02, 2025 12:28:00 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 02, 2025 12:38:53 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2425S1-CS2103T-F14a-4/tp completed!
+May 02, 2025 12:38:53 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/3] Analyzing https://github.com/AY2425S1-CS2103T-F14a-4/tp (master)...
+May 02, 2025 12:38:53 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2425S1-CS2103T-F14a-4/tp (master) does not contain a standalone config file.
+May 02, 2025 12:38:53 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2425S1-CS2103T-F14a-4/tp (master)...
+May 02, 2025 12:38:58 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2425S1-CS2103T-F14a-4/tp (master)...
-May 02, 2025 12:28:00 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 02, 2025 12:38:58 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2425S1-CS2103T-F14a-4/tp (master)...
-May 02, 2025 12:28:00 PM reposense.report.ReportGenerator analyzeRepo
+May 02, 2025 12:38:58 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2425S1-CS2103T-F14a-4/tp (master) completed!
-May 02, 2025 12:28:01 PM reposense.report.RepoCloner waitForCloneProcess
+May 02, 2025 12:38:58 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/reposense/RepoSense.git completed!
-May 02, 2025 12:28:01 PM reposense.report.ReportGenerator analyzeRepos
+May 02, 2025 12:38:58 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [3/3] Analyzing https://github.com/reposense/RepoSense.git (master)...
-May 02, 2025 12:28:01 PM reposense.report.ReportGenerator updateRepoConfig
+May 02, 2025 12:38:59 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: Ignoring standalone config file in https://github.com/reposense/RepoSense.git (master).
-May 02, 2025 12:28:01 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 02, 2025 12:38:59 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/reposense/RepoSense.git (master)...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:38:59 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/30daysFromUntilDate/expected/reposense_testrepo-Charlie_master/authorship.json" has 2276974B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/30daysFromUntilDateFindPreviousAuthors/expected/reposense_testrepo-Charlie_master/authorship.json" has 2276974B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/30daysFromUntilDateWithShallowCloning/expected/reposense_testrepo-Charlie_master/authorship.json" has 2276974B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/dateRangeWithModifiedDateTimeInLines/expected/reposense_testrepo-Charlie_master/authorship.json" has 2519618B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/sinceBeginningDateRange/expected/reposense_testrepo-Charlie_master/authorship.json" has 3940317B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/sinceBeginningDateRange/expected/reposense_testrepo-Delta_master/authorship.json" has 1574290B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/sinceBeginningDateRangeFindPreviousAuthors/expected/reposense_testrepo-Charlie_master/authorship.json" has 3940766B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/sinceBeginningDateRangeFindPreviousAuthors/expected/reposense_testrepo-Delta_master/authorship.json" has 1574308B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/sinceBeginningDateRangeWithPortfolio/expected/reposense_testrepo-Charlie_master/authorship.json" has 3940317B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:02 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/sinceBeginningDateRangeWithPortfolio/expected/reposense_testrepo-Delta_master/authorship.json" has 1574290B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:03 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/sinceBeginningDateRangeWithShallowCloning/expected/reposense_testrepo-Charlie_master/authorship.json" has 3940317B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:03 PM reposense.authorship.FileInfoExtractor generateFileInfo
+May 02, 2025 12:39:00 PM reposense.authorship.FileInfoExtractor generateFileInfo
 WARNING: File "src/systemtest/resources/ConfigSystemTest/sinceBeginningDateRangeWithShallowCloning/expected/reposense_testrepo-Delta_master/authorship.json" has 1574290B size. The file size limit is set at 1000000B. Exact line diffs will be excluded from report...
-May 02, 2025 12:28:09 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 02, 2025 12:39:07 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/reposense/RepoSense.git (master)...
-May 02, 2025 12:28:09 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 02, 2025 12:39:07 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/reposense/RepoSense.git (master)...
-May 02, 2025 12:28:09 PM reposense.report.ReportGenerator analyzeRepo
+May 02, 2025 12:39:07 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/reposense/RepoSense.git (master) completed!
-May 02, 2025 12:28:09 PM reposense.report.ReportGenerator generateReposReport
+May 02, 2025 12:39:07 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/code-portfolio/code-portfolio/reposense-report
-May 02, 2025 12:28:09 PM reposense.RepoSense main
-INFO: Elapsed processing time: 15.70 second(s)
+May 02, 2025 12:39:07 PM reposense.RepoSense main
+INFO: Elapsed processing time: 15.96 second(s)
